@@ -1,0 +1,25 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-upload {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.status.loading { color: blue; }
+.status.error { color: red; }
+
+.dataframe-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dataframe-table th, .dataframe-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
